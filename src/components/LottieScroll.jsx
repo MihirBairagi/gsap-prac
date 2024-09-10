@@ -36,19 +36,19 @@ const LottieScroll = ({ animationData }) => {
             end: `250% -15%`,
             scrub: true,
             smoothScrub: 0.1,
-            pin: true,
+            // pin: true,
             markers: true,
             onUpdate: (self) => {
                 let frame = Math.round(self.progress * totalFrames);
                 frame = Math.min(Math.max(frame, 0), totalFrames - 1);
                 anim.current.goToAndStop(frame, true);
             },
-            onLeave: () => {
-                lottieContainer.current.style.display = 'none';
-            },
-            onEnter: () => {
-                lottieContainer.current.style.display = '';
-            },
+            // onLeave: () => {
+            //     lottieContainer.current.style.display = 'none';
+            // },
+            // onEnter: () => {
+            //     lottieContainer.current.style.display = '';
+            // },
         },
     });
 
