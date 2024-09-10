@@ -89,3 +89,7 @@ h2 {
   position: relative;
   width: 100%;
 }
+
+.box {
+  top: 200vh !important;
+}
