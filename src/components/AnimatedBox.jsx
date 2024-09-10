@@ -39,14 +39,14 @@ const AnimatedBox = () => {
           end: "200% top", 
           scrub: 1,
           smoothScrub: 0.1,
-          // pin: true,
+          pin: true,
           markers: true,
-          // onLeave: () => {
-          //   box.style.display = 'none';
-          // },
-          // onEnter: () => {
-          //     box.style.display = '';
-          // },
+          onLeave: () => {
+            box.style.display = 'none';
+          },
+          onEnter: () => {
+              box.style.display = '';
+          },
         }
       });
     }, []);
