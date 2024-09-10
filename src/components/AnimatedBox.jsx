@@ -52,9 +52,11 @@ const AnimatedBox = () => {
     }, []);
   
     return (
+      <div className="outer-box">
         <div className="box" style={{ width: '10rem', height: '10rem', position: 'absolute' }}>
           <img src={planeImage} alt="" />
         </div>
+      </div>
     );
   };
   
