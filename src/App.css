@@ -85,3 +85,6 @@ h2 {
   height: 15vh !important;
   padding: 0 0 0vh !important;
 }
+.outer-box .pin-spacer {
+  inset: 4176px 1126.41px -3617.59px 0px !important;
+}
