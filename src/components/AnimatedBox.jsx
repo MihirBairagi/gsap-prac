@@ -40,7 +40,7 @@ const AnimatedBox = () => {
           scrub: 1,
           smoothScrub: 0.1,
           pin: true,
-          // markers: true,
+          markers: true,
           onLeave: () => {
             box.style.display = 'none';
           },
