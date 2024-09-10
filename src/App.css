@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+  margin: 0;
+}
+html{
+  font-size: 1.2vw;
+}
+body{
+  background-color: #000;
+  overflow-x: hidden;
+}
+
+section{
+  overflow: hidden;
+  height: 100vh;
+  /* border-bottom: 1px solid saddlebrown; */
+  display: flex;
+}
+.container{
+  width: 80%;
+  margin: auto;
+  max-width: 1920px;
+}
+img{
+  width: 100%;
+}
+h1, h2, h3, h4, h5, h6{
+  color: #fff;
+  font-family: fantasy;
+}
+p{
+  color: #fff;
+  font-size: 1.2rem;
+  font-family: cursive;
+}
+h2 {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+  line-height: 1;
+}
+/* Section 2 */
+.section-2 {
+  position: relative;
+  overflow: hidden; 
+}
+
+.section-box-2 {
+  width: 100%;
+  overflow: hidden; 
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+.team-listing {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.team-listing li {
+  min-width: 18rem; 
+  width: 18rem;
+  margin-right: 1rem;
+  list-style: none;
+}
+
+.team-listing img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.team-listing li:first-child {
+  margin-left: 10rem;
+}
+.fix {
+  position: fixed;
+  top: 5%;
+}
+.animation-box .pin-spacer {
+  height: 15vh !important;
+  padding: 0 0 0vh !important;
+}
