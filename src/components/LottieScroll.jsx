@@ -37,7 +37,7 @@ const LottieScroll = ({ animationData }) => {
             scrub: true,
             smoothScrub: 0.1,
             pin: true,
-            markers: true,
+            // markers: true,
             onUpdate: (self) => {
                 let frame = Math.round(self.progress * totalFrames);
                 frame = Math.min(Math.max(frame, 0), totalFrames - 1);
